@@ -3,7 +3,7 @@
 
 int str_empty(char* str)
 {
-    if ((strlen(str) == 0) || (*str == '\0' ))
+    if ((NULL == str) || (strlen(str) == 0) || (*str == '\0' ))
     {
         return 1;
     }
@@ -12,8 +12,8 @@ int str_empty(char* str)
 
 void strip_quotes(char* line, const char* quoted_line)
 {
-    int i;
-    for (i = 0; i < strlen(quoted_line) - 1; ++i)
+    size_t i, length = strlen(quoted_line) - 1;
+    for (i = 0; i < length; ++i)
     {
         if (i > 0)
         {
