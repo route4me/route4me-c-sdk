@@ -265,7 +265,7 @@ int remove_address_from_optimization(const char* address, const char* opt_id);
 * \param reoptimize
 * \return \c 0 if the response was successfully received, \c error code if an error occurred.
 */
-int add_address_to_optimization(const char* body, const char* opt_id, int reoptimize);
+int add_address_to_optimization(const char* opt_id, const char* body, int reoptimize);
 
 /** \brief Get all activities
 * \return \c 0 if the response was successfully received, \c error code if an error occurred.

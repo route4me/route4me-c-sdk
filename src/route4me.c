@@ -452,7 +452,7 @@ int remove_optimization(const char *fields)
     return request(REQ_GET, R4_API_HOST, props, fields, NULL);
 }
 
-int add_address_to_optimization(const char *body, const char *opt_id, int reoptimize)
+int add_address_to_optimization(const char *opt_id, const char *body, int reoptimize)
 {
     json_object* props = json_object_new_object();
     json_object_object_add(props, "api_key", json_object_new_string(m_key));

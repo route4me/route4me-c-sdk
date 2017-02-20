@@ -6,7 +6,7 @@ static char key[] = "11111111111111111111111111111111";
 
 int main(int argc, char* argv[])
 {
-    char opt_id[] = "07372F2CF3814EC6DFFAFE92E22771AA";
+    char opt_id[] = "123974C887534E84B6114F18A65847E3";
     char address[] = "154456307";
     init(key, 1);
 

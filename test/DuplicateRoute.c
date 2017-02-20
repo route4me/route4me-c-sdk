@@ -8,7 +8,7 @@ int main(int argc, char* argv[])
 {
     init(key, 0);
 
-    if (!duplicate_route("CA902292134DBC134EAF8363426BD247", "174405709A"))
+    if (!duplicate_route("CA902292134DBC134EAF8363426BD247", "none"))
     {
        json_object* opt_lst = getJSONResponse();
        printf("%s\n", json_object_to_json_string(opt_lst));
