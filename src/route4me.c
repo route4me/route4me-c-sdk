@@ -394,8 +394,8 @@ int get_route_notes(const char *route_id, const char *destination_id)
 
 int set_gps(json_object* props)
 {
-    json_object_object_add(props, "api_key", json_object_new_string(m_key));
-    return request(REQ_POST, GPS_HOST, props, NULL, NULL);
+    json_object_object_add(props, "api_key", json_object_new_string(m_key)); 
+    return request(REQ_POST, GPS_HOST, props, json_object_new_object(), NULL);
 }
 
 /* OPTIMIZATIONS */
