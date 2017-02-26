@@ -7,9 +7,8 @@ os:
 - linux
 script:
 - git clone https://github.com/json-c/json-c.git
-- echo $PWD
 - cd json-c
-- ./configure --prefix=../lib/json-c && make install
+- ./configure && make install
 - cd ..
 - cmake .
 - make all
