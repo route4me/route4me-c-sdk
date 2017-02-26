@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/DuplicateRoute.dir/DuplicateRoute.c.o  -o DuplicateRoute -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

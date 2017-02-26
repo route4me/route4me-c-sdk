@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/UpdateRoute.dir/UpdateRoute.c.o  -o UpdateRoute -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

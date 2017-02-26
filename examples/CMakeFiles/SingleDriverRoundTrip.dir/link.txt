@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/SingleDriverRoundTrip.dir/SingleDriverRoundTrip.c.o  -o SingleDriverRoundTrip -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

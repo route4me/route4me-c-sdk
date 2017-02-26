@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/GetAllActivities.dir/GetAllActivities.c.o  -o GetAllActivities -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/ReverseGeocoder.dir/ReverseGeocoder.c.o  -o ReverseGeocoder -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

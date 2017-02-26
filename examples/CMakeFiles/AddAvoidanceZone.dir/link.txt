@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/AddAvoidanceZone.dir/AddAvoidanceZone.c.o  -o AddAvoidanceZone -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/PreviewFile.dir/PreviewFile.c.o  -o PreviewFile -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

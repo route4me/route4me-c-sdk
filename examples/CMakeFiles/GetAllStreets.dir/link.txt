@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/GetAllStreets.dir/GetAllStreets.c.o  -o GetAllStreets -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

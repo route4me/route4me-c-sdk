@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/GetVehicles.dir/GetVehicles.c.o  -o GetVehicles -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

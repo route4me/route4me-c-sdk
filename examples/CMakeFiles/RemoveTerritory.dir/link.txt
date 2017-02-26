@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/RemoveTerritory.dir/RemoveTerritory.c.o  -o RemoveTerritory -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

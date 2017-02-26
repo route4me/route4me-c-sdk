@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/SingleDepotMultipleDriver.dir/SingleDepotMultipleDriver.c.o  -o SingleDepotMultipleDriver -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

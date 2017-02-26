@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/Reoptimization.dir/Reoptimization.c.o  -o Reoptimization -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 
