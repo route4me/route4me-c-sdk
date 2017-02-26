@@ -2,9 +2,11 @@
 sudo: false
 language: c
 compiler:
-- gcc --m32
+- gcc -m32
 os:
 - linux
+before_script:
+- export CFLAGS=m32
 script:
 - cmake .
 - make all
