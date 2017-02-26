@@ -1,15 +1,11 @@
 
-sudo: true
+sudo: false 
 language: c
 compiler:
 - gcc
 os:
 - linux
 script:
-- git clone https://github.com/json-c/json-c.git
-- cd json-c
-- sudo ./configure --prefix=../lib/json-c  && make install
-- cd ..
 - cmake .
 - make all
 
