@@ -5,13 +5,12 @@ compiler:
 - gcc
 os:
 - linux
-before_script:
+script:
 - git clone https://github.com/json-c/json-c.git
-- cd ../json-c
+- cd json-c
 - ./configure --prefix=../lib/json-c
 - make install
 - cd ..
-script:
 - cmake .
 - make all
 
