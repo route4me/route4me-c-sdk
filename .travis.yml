@@ -2,11 +2,15 @@
 sudo: false
 language: c
 compiler:
-- gcc -m32
+- gcc
 os:
 - linux
 before_script:
-- export CFLAGS=-m32
+- git clone https://github.com/json-c/json-c.git
+- cd json-c
+- ./configure --prefix=../lib/json-c
+- make install
+- cd ..
 script:
 - cmake .
 - make all
