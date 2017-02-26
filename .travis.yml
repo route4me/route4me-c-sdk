@@ -6,7 +6,7 @@ compiler:
 os:
 - linux
 before_script:
-- export CFLAGS=m32
+- export CFLAGS=-m32
 script:
 - cmake .
 - make all
