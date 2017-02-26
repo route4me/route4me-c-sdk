@@ -1,1 +1,0 @@
-/usr/bin/cc      CMakeFiles/GetRouteById.dir/GetRouteById.c.o  -o GetRouteById -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

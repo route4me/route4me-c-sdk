@@ -1,1 +1,0 @@
-/usr/bin/cc      CMakeFiles/LogActivity.dir/LogActivity.c.o  -o LogActivity -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

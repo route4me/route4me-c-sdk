@@ -1,1 +1,0 @@
-/usr/bin/cc      CMakeFiles/GetAllOrders.dir/GetAllOrders.c.o  -o GetAllOrders -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

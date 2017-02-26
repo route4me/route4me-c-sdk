@@ -1,1 +1,0 @@
-/usr/bin/cc      CMakeFiles/GetAddress.dir/GetAddress.c.o  -o GetAddress -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

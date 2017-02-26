@@ -1,1 +1,0 @@
-/usr/bin/cc      CMakeFiles/GetTeamActivities.dir/GetTeamActivities.c.o  -o GetTeamActivities -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

@@ -1,1 +1,0 @@
-/usr/bin/cc      CMakeFiles/ShareRoute.dir/ShareRoute.c.o  -o ShareRoute -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

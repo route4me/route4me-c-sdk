@@ -1,1 +1,0 @@
-/usr/bin/cc      CMakeFiles/AssetTracking.dir/AssetTracking.c.o  -o AssetTracking -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

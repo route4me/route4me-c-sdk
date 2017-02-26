@@ -1,1 +1,0 @@
-/usr/bin/cc      CMakeFiles/AddOptimization.dir/AddOptimization.c.o  -o AddOptimization -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

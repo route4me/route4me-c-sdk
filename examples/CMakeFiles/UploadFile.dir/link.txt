@@ -1,1 +1,0 @@
-/usr/bin/cc      CMakeFiles/UploadFile.dir/UploadFile.c.o  -o UploadFile -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

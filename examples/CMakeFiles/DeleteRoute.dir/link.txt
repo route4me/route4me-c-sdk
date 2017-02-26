@@ -1,1 +1,0 @@
-/usr/bin/cc      CMakeFiles/DeleteRoute.dir/DeleteRoute.c.o  -o DeleteRoute -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

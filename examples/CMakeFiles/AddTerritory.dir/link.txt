@@ -1,1 +1,0 @@
-/usr/bin/cc      CMakeFiles/AddTerritory.dir/AddTerritory.c.o  -o AddTerritory -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 

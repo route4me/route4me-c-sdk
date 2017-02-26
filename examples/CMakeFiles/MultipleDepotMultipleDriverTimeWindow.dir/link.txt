@@ -1,1 +1,0 @@
-/usr/bin/cc      CMakeFiles/MultipleDepotMultipleDriverTimeWindow.dir/MultipleDepotMultipleDriverTimeWindow.c.o  -o MultipleDepotMultipleDriverTimeWindow -rdynamic ../lib/libroute4me.a -lcurl ../lib/json-c/libjson-c.a 
