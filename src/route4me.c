@@ -145,7 +145,7 @@ static size_t read_http_resp(void *contents, size_t size, size_t nmemb, void *us
     return realsize;
 }
 
-static int request(enum ReqType method, char *service_path, json_object *props,
+static int request(enum ReqType method, const char *service_path, json_object *props,
                    char* payload, char* altUrl)
 {
     char url[2048] = "";
