@@ -1,3 +1,5 @@
-
 ENABLE_TESTING()
-
+ADD_EXECUTABLE(StringUtilsTest StringUtilsTest)
+TARGET_LINK_LIBRARIES(StringUtilsTest route4me)
+TARGET_LINK_LIBRARIES(StringUtilsTest -L${CMOCKA_LIBRARY} -lcmocka)
+ADD_TEST(StringUtilsTest StringUtilsTest)
