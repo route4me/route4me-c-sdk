@@ -7,24 +7,30 @@
 
 static char key[] = "11111111111111111111111111111111";
 
+static int group_setup()
+{
+    init(key, 1);
+    return 0;
+}
+
+static int group_teardown()
+{
+    cleanUp();
+    return 0;
+}
+
 static int getAllContacts()
 {
-    int ret = 0;
-    init(key, 1);
     struct Limit limit = {5,10};
-    ret = get_all_address_book_contacts(&limit);
-    cleanUp();
+    int ret = get_all_address_book_contacts(&limit);
     assert_int_equal(0, ret);
     return ret;
 }
 
 static int getOneContact()
 {
-    int ret = 0;
-    init(key, 1);
     struct Limit limit = {5,10};
-    ret = get_address_book_by_text("Wall", &limit);
-    cleanUp();
+    int ret = get_address_book_by_text("Wall", &limit);
     assert_int_equal(0, ret);
     return ret;
 }
@@ -36,6 +42,6 @@ int main(int argc, char** argv)
         cmocka_unit_test(getAllContacts),
         cmocka_unit_test(getOneContact),
     };
-    return cmocka_run_group_tests(tests, NULL, NULL);
+    return cmocka_run_group_tests(tests, group_setup, group_teardown);
 }
 

@@ -2,7 +2,7 @@
 #ifndef croute4me
 #define croute4me route4me
 
-#include <json.h>
+#include <json-c/json.h>
 
 void init(char*, int);
 void cleanUp();
