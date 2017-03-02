@@ -10,6 +10,12 @@ before_install:
 - cd cmocka && mkdir build && cd build
 - cmake .. && make -j2 && sudo make install
 - cd ../..
+
+- git clone https://github.com/json-c/json-c.git
+- cd json-c
+- cmake . && make -j2 && sudo make install
+
+- cd ..
 script:
 - cmake .
 - make all
