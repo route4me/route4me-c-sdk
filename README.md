@@ -91,9 +91,42 @@ The time required to integrate the SDK can be as little as 1 hour or may take se
 
 
 ## Pre-requisites
+Route4Me API C client depends on `libcurl` library, needed for client-side URL transfers. Before you can build the source, you need to install `libcurl`, e.g.: for Ubuntu it would be advisable to update your repositories and then proceed with
 
+```bash
+sudo apt-get install libcurl4-openssl-dev
+```
+If you want to know a bit more about `libcurl`, you should go on the official website and read about interfaces that cURL implements: http://curl.haxx.se/
+
+
+JSON-C library is another dependency for work with JSON data in plain C code. This is open-source project which we suggest to get from git and build. 
+Example for Travis build in Ubuntu (gcc) environment is below.
+
+```bash
+- git clone https://github.com/json-c/json-c.git
+- cd json-c
+- cmake . && make -j2 && sudo make install
+```
+
+CMocka library is used for unit testing. Unless you want to skip unit testing
+you may follow the snippet below:
+
+```bash
+- git clone git://git.cryptomilk.org/projects/cmocka.git
+- cd cmocka && mkdir build && cd build
+- cmake .. && make -j2 && sudo make install
+```
 
 ## Build
+To build Route4Me C client as a standalone library:
+
+```bash
+cmake .
+make all 
+```
+This command will create library in /lib and build examples in /example. Unless unit testing is disabled - /tests will be run.
+Then add <Route4Me API C root>/lib/ to your library path and <Route4Me API C root>/include/ to your include path.
+When linking, link against route4me.
 
 ## Creating a Simple Route
 
