@@ -9,7 +9,7 @@ int main(int argc, char* argv[])
     init(key, 1);
 
     char route_id[] = "CA902292134DBC134EAF8363426BD247";
-    char email[] = "alexander.stoyakin@gmail.com";
+    char email[] = "apitester@gmail.com";
 
     if (!share_routes(route_id, email, "json"))
     {
