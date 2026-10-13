@@ -210,7 +210,7 @@ static int request(enum ReqType method, const char *service_path, json_object *p
     {
         free(chunk.memory);
         current_response.m_err_code = ERR_CURL_RESP;
-        current_response.m_err_msg = realloc(current_response.m_err_msg, strlen(curl_easy_strerror(res)));
+        current_response.m_err_msg = realloc(current_response.m_err_msg, strlen(curl_easy_strerror(res)) + 1);
         strcpy(current_response.m_err_msg, curl_easy_strerror(res));
         return ERR_CURL_RESP;
     }
